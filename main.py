@@ -16,7 +16,7 @@ source_v = (c*rest_freq/shifted_freq)-c
 print(source_v)
 
 plt.plot(data['col1'],data['col2'])
-plt.title('title name')
-plt.xlabel('Frequency')
-plt.ylabel('Relative Power')
+plt.title('Relative Power Vs Frequency')
+plt.xlabel('Frequency [Hz]')
+plt.ylabel('Relative Power [Watts]')
 plt.show()
