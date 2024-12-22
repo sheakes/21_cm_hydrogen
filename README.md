@@ -1,5 +1,7 @@
 # 21_cm_hydrogen
 
+My very first astro code!
+
 Having just finished my first computing course in Fall 2021 CPSC:103 Systematic Program Design I intended to put my new skills in programming to astronomical data.
 
 Using previously data collected from the open source radio telescope PICTOR (https://pictortelescope.com/) based in Athens, Greece I computed the dopler shift for hydrogen clouds in the constellation of Cygnus. The radio telescope was pointed at zenith and specifically at a galactic long./lat. of 72 degrees 15 minutes/ 6 degrees 55 minutes although the PICTOR telescope has a field of view of approximately 9 degrees and would include most of the Cygnus constellation.
@@ -23,5 +25,5 @@ And was sent the following graphs, analysis, and a csv file of the data recorded
 Using some simple import csv code, astropy, and matplotlib packages. I emulated the above frequency graphic and printed the following.
 ![Relative Power vs Frequency](https://user-images.githubusercontent.com/89617602/232877342-3e6a0035-cf35-4070-8940-70eda7416efc.png)
 
-Using the dopler shift formula Velocity = (c*rest frequency/shifted freqency)-c where c is 3e+8 m/s I calculated that the hydrogen clouds were moving towards the solar system at approximately 86 km/s due to wavelength being blueshifted.
+Using the dopler shift formula Velocity = (c*rest frequency/shifted freqency)-c where c is 3e+8 m/s I calculated that the hydrogen clouds were moving towards observatory at approximately 86 km/s due to wavelength being blueshifted.
 
